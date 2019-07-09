@@ -1,0 +1,27 @@
+#header {
+	border: 1px solid red;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+#content {
+	border: 1px solid red;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+}
+#footer {
+	border: 1px solid red;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+#logo {
+	width: 30%;
+	float: left;
+	border: 1px solid red;
+}
+#banner {
+	width: 69.5%;
+	float: left;
+}
