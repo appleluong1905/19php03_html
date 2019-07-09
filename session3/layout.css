@@ -3,6 +3,7 @@
 	height: 100px;
 	text-align: center;
 	line-height: 100px;
+	background: yellow;
 }
 #content {
 	border: 1px solid red;
