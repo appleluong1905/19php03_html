@@ -1,0 +1,37 @@
+header {
+	/*tao border cho doi tuong*/
+	border: 1px solid red;
+	/*set chieu cao doi tuong*/
+	height: 100px;
+	/*can giua text*/
+	text-align: center;
+	/*can giua text theo chieu cao*/
+	line-height: 100px;
+	/*tao backgroud cho doi tuong*/
+	background: yellow;
+}
+section {
+	border: 1px solid red;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+	/*in dam text*/
+	font-weight: bold;
+}
+footer {
+	border: 1px solid red;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+#logo {
+	/*set do rong cua doi tuong theo %*/
+	width: 30%;
+	/*chong doi tuong ve ben trai*/
+	float: left;
+	border: 1px solid red;
+}
+#banner {
+	width: 69.5%;
+	float: left;
+}
