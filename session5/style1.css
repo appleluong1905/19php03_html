@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+/* Dinh nghia font chu */
+@font-face {
+  font-family: myNeolionFont;
+  src: url(Neolion-Caligraphy.otf);
+}
+
+body {
+	background-color: #ffffcc;
+}
+
+.demo1 {
+	color: #EAB551 !important;
+	font-family: myNeolionFont;
+	font-size: 50px;
+}
+
+.demo1 {
+	color: yellow;
+	text-align: center;
+}
+.content {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*Thut vao dau dong 20px*/
+	text-indent: 20px;
+	text-align: justify;
+	/*In hoa ca doan van*/
+	text-transform: uppercase;
+	/*In thuong ca doan van*/
+	text-transform: lowercase;
+	/*Gach ngang chu*/
+	text-decoration: line-through;
+}
+
+.demo1 {
+	text-shadow: 5px 4px 3px red;
+}
