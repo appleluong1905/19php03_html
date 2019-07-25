@@ -2,7 +2,18 @@ table {
 	border: 1px solid black;
 	width: 600px;
 	border-collapse: collapse;
+	margin: 0 auto;
 }
 td, th {
 	border: 1px solid black;
 }
+thead, tfoot {
+	background: #ada;
+}
+td {
+	text-align: center;
+	background: yellow;
+}
+/*td:nth-child(even) {
+	background:red;
+}*/

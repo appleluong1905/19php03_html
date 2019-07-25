@@ -1,0 +1,19 @@
+#demo1 {
+	width: 300px;
+	height: 500px;
+	border: 2px solid green;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	background-image: linear-gradient(to bottom, #ada, yellow);
+}
+#demo2 {
+	width: 200px;
+	height: 200px;
+	border: 2px solid green;
+	border-radius: 50%;
+	box-shadow: 3px 6px 3px blue;
+	background: red;
+	background: url('../img/girlxinh.jpg');
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+}
