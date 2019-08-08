@@ -22,7 +22,9 @@
 	padding: 20px 15px;
 }
 .login_form {
-	height: 200px;
+	height: 250px;
+	background: url('../img/bg.jpg') center top no-repeat;
+	color: #fff;
 }
 .register_form {
 	height: 350px;
@@ -36,6 +38,14 @@
 .input_text {
 	height: 24px;
 	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+}
+input::placeholder {
+	color: #fff;
+	text-align: center;
 }
 .label {
 	line-height: 30px;
@@ -54,4 +64,8 @@
 }
 .first_name {
 	margin-right: 20px;
+}
+textarea {
+	text-indent: 15px;
+	padding: 5px;
 }

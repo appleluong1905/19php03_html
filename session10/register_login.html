@@ -13,7 +13,9 @@
 			<div class="login_form">
 				<form name="login" action="#" method="POST">
 					<p class="label">Username or email address <span class="require">*</span></p>
-					<input type="text" name="username" class="input_text">
+					<input type="text" name="username" class="input_text" placeholder="Please input your email or username" required>
+					<p class="label">Email <span class="require">*</span></p>
+					<input type="text" name="email" class="input_text" placeholder="example@gmail.com" maxlength="10">
 					<p  class="label">Password <span class="require">*</span></p>
 					<input type="password" name="password"  class="input_text">
 					<input type="submit" name="login" value="LOGIN" class="submit_button">
@@ -30,12 +32,28 @@
 				<form name="register" action="#" method="POST">
 					<div class="first_name">
 						<p class="label">First name <span class="require">*</span></p>
-						<input type="text" name="first_name" class="input_text">
+						<input type="text" name="first_name" class="input_text" placeholder="Chad" tabindex="1" required>
 					</div>
 					<div class="last_name">
 						<p class="label">Last name <span class="require">*</span></p>
 						<input type="text" name="last_name" class="input_text">
 					</div>
+					<input type="hidden" name="id" value="84943999">
+					<p class="label">Gender <span class="require">*</span></p>
+					<input type="radio" name="gender" value="male" checked> Male
+					<input type="radio" name="gender" value="female"> Female
+					<p class="label">City <span class="require">*</span></p>
+					<select name="city">
+						<option value="1">Da Nang</option>
+						<option value="2">Ha Noi</option>
+						<option value="3" selected>Ho Chi Minh</option>
+					</select>
+					<p class="label">About <span class="require">*</span></p>
+					<textarea name="about" rows="10" cols="40"></textarea>
+					<input type="range" name="size" min = "20" max="100" step="5">
+					<input type="number" name="old" min = "20" max="100" step="5" class="input_text">
+					<input type="color" name="color" class="input_text">
+					<p>.................</p>
 					<input type="reset" name="reset" value="RESET" class="submit_button">
 					<input type="image" name="register" src="img/register.png">
 			</div>
