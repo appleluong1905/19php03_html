@@ -48,3 +48,10 @@
 .lost_password {
 	padding-top: 10px;
 }
+.first_name, .last_name {
+	width: 45%;
+	float: left;
+}
+.first_name {
+	margin-right: 20px;
+}
