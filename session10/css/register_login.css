@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.contaiter {
+	width: 90%;
+	margin: 0 auto;
+}
+.login {
+	width: 45%;
+	float: left;
+	margin-right: 60px;
+}
+.register {
+	width: 45%;
+	float: left;
+}
+.login_form, .register_form {
+	border: 1px solid grey;
+	float: left;
+	width: 100%;
+	padding: 20px 15px;
+}
+.login_form {
+	height: 200px;
+}
+.register_form {
+	height: 350px;
+}
+.login h2, .register h2 {
+	margin-bottom: 20px;
+}
+.require {
+	color: red;
+}
+.input_text {
+	height: 24px;
+	width: 100%;
+}
+.label {
+	line-height: 30px;
+}
+.submit_button {
+	height: 24px;
+	width: 65px;
+	margin-top: 10px;
+}
+.lost_password {
+	padding-top: 10px;
+}
