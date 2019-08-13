@@ -1,1 +1,1 @@
-alert('test external abc');
+// alert('test external abc');
