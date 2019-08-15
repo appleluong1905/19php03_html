@@ -178,3 +178,46 @@ var myYear = 2019;
 // thang 2 co 28 ngay, neu nam nhuan thi thang 2 co 29 ngay
 // nam nhuan la nam chia het cho 4 nhung k chia het cho 100
 
+// vong lap
+// cac cau lenh hoac hanh dong duoc lap di lap lai nhieu lan
+// thi ap dung vong lap de thuc hien
+
+var i;
+for (i = 0; i <= 10; i++) {
+	document.write(i);
+	document.write('<br>');
+}
+// i++ tuong ung voi: i = i + 1;
+// i-- tuong ung voi: i = i - 1;
+
+//BT: In ra day so tu 10 toi 0
+var j;
+for (j = 10; j >= 0; j--) {
+	document.write(j);
+	document.write('<br>');
+}
+document.write('-------<br>');
+
+// vong lap while
+var n = 5;
+while (n < 5) {
+	document.write(n);
+	document.write('<br>');
+	n++;
+}
+
+document.write('-------<br>');
+// vong lap do...whilevar n = 5;
+var n = 5;
+do {
+	document.write(n);
+	document.write('<br>');
+	n++;
+} while (n < 5);
+
+// Cho 1 day so chay tu 1 toi 100;
+// Kiem tra 
+// Neu so do chia het cho 3 thi in ra so n chia het cho 3
+// Neu so do chia het cho 5 thi in ra so n chia het cho 5
+// Neu so do chia het cho 15 thi in ra so n chia het cho 15 
+// (luc nay khong in ra 2 dong n chia het cho 3 va dong n chia het cho 5)
