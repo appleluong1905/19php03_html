@@ -165,4 +165,16 @@ switch(myDay) {
 		break;
 }
 
+// Cho 1 so cho truoc la gia tri cua thang trong nam tu 1 toi 12
+// Neu so do khac tu 1-12 thi in ra la so nay khong phai thang cua nam
+// Neu so do la thang cua nam, in ra so ngay cua thang do
+// Cho them 1 so cho truoc la so nam (vi du 2019)
+// Kiem tra nam do nhuan hay khong? de in ra dung so ngay cua thang 2
+document.write('<br>');
+var myMonth = 2;
+var myYear = 2019;
+// thang 1, 3, 5, 7, 8, 10, 12 co 31 ngay
+// thang 4, 6, 9, 11 coa 30 ngay
+// thang 2 co 28 ngay, neu nam nhuan thi thang 2 co 29 ngay
+// nam nhuan la nam chia het cho 4 nhung k chia het cho 100
 
