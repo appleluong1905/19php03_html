@@ -221,3 +221,27 @@ do {
 // Neu so do chia het cho 5 thi in ra so n chia het cho 5
 // Neu so do chia het cho 15 thi in ra so n chia het cho 15 
 // (luc nay khong in ra 2 dong n chia het cho 3 va dong n chia het cho 5)
+// Nguoc lai thi in ra n khong chia het cho 3, 5 va 15
+//VD: 1 khong chia het cho 3, 5, 15
+// 2 khong chia het cho 3, 5, 15
+// 3 khong chia het cho 3
+// 4 khong chia het cho 3, 5, 15
+// 5 khong chia het cho 5
+//...
+// 15 khong chia het cho 15
+// ...
+// 20 khong chia het cho 5
+// if ((n % 3 == 0) || (n % 5 == 0)) {
+
+// }
+// Cho ban 2000 vnđ đi mua kẹo .Biết :
+// _ 1 viên kẹo giá 200 vnđ.
+// _ cứ 2 vỏ kẹo đổi được 1 viên.
+// Hỏi với 2000 vnđ, ban sẽ mua đc bao nhiêu viên kẹo ?
+
+// *************
+// Cho day so chay tu 1 toi 10
+// Kiem tra va in ra so chan
+
+
+
