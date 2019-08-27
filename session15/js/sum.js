@@ -6,3 +6,7 @@ function sumNumber() {
 	number2 = parseInt(number2);
 	document.getElementById('sum').innerHTML = number1 + number2;
 }
+
+function changeImage(img) {
+	document.getElementById('default').src = img;
+}
