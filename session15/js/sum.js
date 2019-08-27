@@ -7,6 +7,7 @@ function sumNumber() {
 	document.getElementById('sum').innerHTML = number1 + number2;
 }
 
-function changeImage(img) {
+function changeImage(img, name) {
 	document.getElementById('default').src = img;
+	document.getElementById('name_text').innerHTML = name;
 }
