@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sum - Session 15</title>
+	<link rel="stylesheet" href="css/sum.css">
+</head>
+<body>
+		<p id="sum"></p>
+	<form>
+		<p>Number 1:
+			<input type="text" name="number1" id="number1" onkeyup="sumNumber()" value="0">
+		</p>
+		<p id="errorNumber1" class="error"></p>
+		<p>Number 2:
+			<input type="text" name="number2" id="number2" onkeyup="sumNumber()" value="0">
+		</p>
+		<p id="errorNumber2" class="error"></p>
+		<p>
+			<input type="button" onclick="sumNumber()" name="sum" value="Sum">
+		</p>
+	</form>
+	<script src="js/sum.js"></script>
+</body>
+</html>
