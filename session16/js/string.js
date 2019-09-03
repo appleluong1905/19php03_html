@@ -41,7 +41,7 @@ while (myStr.indexOf(charSearch) != -1) {
 	newMyStr = myStr.substring(myStr.indexOf(charSearch) + 1, myStr.length);
 	myStr = newMyStr;
 }
-document.write('<br>' + count);
+document.write('<br> Co ' + count + ' ky tu a trong chuoi "'+ y + '"');
 
 //BT2:
 function countCharInString(charSearch, myStr) {
@@ -56,3 +56,15 @@ function countCharInString(charSearch, myStr) {
 }
 document.write('<br>');
 document.write(countCharInString('a', 'I am Chad!'));
+
+//BT3:
+// Dung promt de nhap ho va ten vao theo mau: Le Van Tuan 
+// (tuc la ho, ten dem, ten cach nhau boi dau cach - khoang trong)
+// Dem xem ho va ten day du co bao nhieu ky tu? (khong tinh khoang trong)
+// Dem xem ho co bao nhieu ky ta?
+var myName = prompt('Please input your name?','');
+
+// BT4: Cung nhu BT2, nhung ky tu tim kiem khong phan biet la 1 ky
+// tu hay nhieu ky ta. Vidu: countCharInString('am', 'I am Chad!')
+// BT5: Tiep tuc bai 4, nhung neu tim duoc ky tu/chuoi ky tu trong
+// string thi in ra string voi ky tu/chuoi ky tu do mau vang
