@@ -1,0 +1,58 @@
+var x = 5;
+var y = "Van Hau is a Vietnamese footballer who plays as a left-back";
+console.log(typeof x);
+console.log(typeof y);
+document.write('<br>' + y);
+// Kiem tra chieu dai cua string
+document.write('<br>' + y.length);
+console.log(y.length);
+// Tim vi tri cua ky tu nam dau tien trong string
+document.write('<br>' + y.indexOf('a'));
+console.log(y.indexOf('a'));
+
+// Tim vi tri cua ky tu nam cuoi cung trong string
+document.write('<br>' + y.lastIndexOf('a'));
+console.log(y.lastIndexOf('a'));
+
+// Cat chuoi ky tu trong string
+// Cach 1: cat tu vi tri den vi tri
+document.write('<br>' + y.substring(2, 10));
+console.log(y.substring(2, 10));
+// Cach 2: cat tu vi tri, voi chieu dai cho truoc
+document.write('<br>' + y.substr(2, 10));
+console.log(y.substr(2, 10));
+
+// Neu tim khong thay ky tu trong string thi tra ve gia tri - 1
+// Tim vi tri cua ky tu nam dau tien trong string
+document.write('<br>' + y.indexOf('d'));
+console.log(y.indexOf('d'));
+
+// BT1: Dem xem chuoi tren co bao nhieu chu "a"
+// BT2 (nang cao BT1): Viet ham truyen vao 1 chuoi va 1 ky tu,
+// kiem tra co bao nhieu ky tu do trong chuoi
+
+//BT1:
+var myStr = "Van Hau is a Vietnamese footballer who plays as a left-back";
+var charSearch = 'a';
+var count = 0;
+var newMyStr = '';
+while (myStr.indexOf(charSearch) != -1) {
+	count++;
+	newMyStr = myStr.substring(myStr.indexOf(charSearch) + 1, myStr.length);
+	myStr = newMyStr;
+}
+document.write('<br>' + count);
+
+//BT2:
+function countCharInString(charSearch, myStr) {
+	var count = 0;
+	var newMyStr = '';
+	while (myStr.indexOf(charSearch) != -1) {
+		count++;
+		newMyStr = myStr.substring(myStr.indexOf(charSearch) + 1, myStr.length);
+		myStr = newMyStr;
+	}
+	return count;
+}
+document.write('<br>');
+document.write(countCharInString('a', 'I am Chad!'));
