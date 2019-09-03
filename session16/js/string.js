@@ -79,4 +79,9 @@ var myName = prompt('Please input your name?','');
 
 //BT7: Cung nhu BT6 nhung khong biet chu Hoa hoac Thuong.
 // Vi du: a va A thi tinh la a
+// (nghien cuu 2 phuong thuc upperCase() vaf lowerCase())
 
+document.write('<br>' + y.toUpperCase());
+document.write('<br>' + y.toLowerCase());
+
+// Nghien cuu them phuong thuc replace: thay the ky tu/chuoi ky tu
