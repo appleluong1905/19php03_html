@@ -55,16 +55,28 @@ function countCharInString(charSearch, myStr) {
 	return count;
 }
 document.write('<br>');
-document.write(countCharInString('a', 'I am Chad!'));
+document.write(countCharInString('a', 'I am Chad! I am from DN'));
 
 //BT3:
 // Dung promt de nhap ho va ten vao theo mau: Le Van Tuan 
 // (tuc la ho, ten dem, ten cach nhau boi dau cach - khoang trong)
 // Dem xem ho va ten day du co bao nhieu ky tu? (khong tinh khoang trong)
-// Dem xem ho co bao nhieu ky ta?
+// Dem xem ho co bao nhieu ky tu?
 var myName = prompt('Please input your name?','');
 
 // BT4: Cung nhu BT2, nhung ky tu tim kiem khong phan biet la 1 ky
 // tu hay nhieu ky ta. Vidu: countCharInString('am', 'I am Chad!')
 // BT5: Tiep tuc bai 4, nhung neu tim duoc ky tu/chuoi ky tu trong
 // string thi in ra string voi ky tu/chuoi ky tu do mau vang
+
+//Van Hau
+//-> V<span>a</span>n H<span>a</span>u
+
+// BT6: Nhap vao 1 chuoi bang prompt
+// Dem xem trong chuoi do ky tu nao nhieu nhat?
+// ky tu nao it xuat hien nhat 
+// Neu bang nhau thi hien thi 1 cai nhat la dc
+
+//BT7: Cung nhu BT6 nhung khong biet chu Hoa hoac Thuong.
+// Vi du: a va A thi tinh la a
+
