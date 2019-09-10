@@ -6,3 +6,15 @@ function addChar(number) {
 function calResult() {
 	document.getElementById('result').innerHTML = eval(result);
 }
+function delCal() {
+	result = '';
+	document.getElementById('result').innerHTML = '0';
+}
+function backCal() {
+	var newResult;
+	if (result != '') {
+		newResult = result.substring(0, result.length - 1);
+		document.getElementById('result').innerHTML = newResult;
+		result = newResult;
+	}
+}
