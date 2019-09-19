@@ -13,7 +13,7 @@
 			</div>
 			<div class="input">
 				<input type="text" name="name" id="name">
-				<span class="error">error</span>
+				<span class="error" id="errorName"></span>
 			</div>
 		</div>
 		<div class="input-control">
@@ -22,7 +22,7 @@
 			</div>
 			<div class="input">
 				<input type="text" name="first_number" id="first_number">
-				<span class="error">error</span>
+				<span class="error" id="errorFirstNumber"></span>
 			</div>
 		</div>
 		<div class="input-control">
@@ -31,7 +31,7 @@
 			</div>
 			<div class="input">
 				<input type="text" name="last_number" id="last_number">
-				<span class="error">error</span>
+				<span class="error" id="errorLastNumber"></span>
 			</div>
 		</div>
 		<div class="input-control">
@@ -40,7 +40,7 @@
 			</div>
 			<div class="input">
 				<input type="date" name="first_day" id="first_day">
-				<span class="error">error</span>
+				<span class="error" id="errorFirstDay"></span>
 			</div>
 		</div>
 		<div class="input-control">
@@ -49,12 +49,13 @@
 			</div>
 			<div class="input">
 				<input type="date" name="last_day" id="last_day">
-				<span class="error">error</span>
+				<span class="error" id="errorLastDay"></span>
 			</div>
 		</div>
 		<div class="input-control">
 			<input type="button" name="tinhtiendien" value="Tinh tien dien" onclick="tinhTienDien()">
 		</div>
+		<p id="printContent"></p>
 	</form>
 	<script src="js/tiendien.js"></script>
 </body>
