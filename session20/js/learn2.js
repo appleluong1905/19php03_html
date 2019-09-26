@@ -2,7 +2,7 @@ $('.hide').click(function(){
 	$('.demo1').hide(2000);
 });
 $('.show').click(function(){
-	$('.demo1').show(5000);
+	$('.demo1').css("color", "red").show(3000).hide(2000).css("color", "blue").show(3000).hide(2000);
 });
 
 $('.fadeIn').click(function(){
